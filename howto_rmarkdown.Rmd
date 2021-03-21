@@ -1,0 +1,51 @@
+---
+title: "Project Title"
+output:
+  html_document:
+    df_print: paged
+    toc: yes
+  html_notebook:
+    toc: yes
+editor_options:
+  chunk_output_type: inline
+fig_width: 4 
+fig_height: 3 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# 1. Chapter One
+
+After using lines 1-17 (and changing titles, or experimenting with figure settings), you can start!
+
+```{r}
+# Use the Insert tag, to insert chunks of code
+print("Hello World")
+```
+
+[Here's](https://rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) a cheat sheet for R Markdown
+
+You can embed YouTube video's. Just go to the YouTube video, and click on *share* followed by *embed*. Copy and paste the code for embedding.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tKUufzpoHDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+After "knitting" this R Markdown file, you will not directly see the video in the thing that pops up on your screen. But an *html* file is created, in the project folder. 
+
+If you click on that file, the [full document](https://rpubs.com/SSM_Research_Center/howto_rmarkdown) opens in your browser. Or you can publish it via, for example, RPubs, to share it with the rest of the world.
+
+## 1.1 Section 1.1
+
+Text
+
+## 1.2 Section 1.2 
+
+### 1.2.1 Subsection 1.2.1
+
+And so on
+
+# 2. Chapter Two
+
+And so on ...
+
